@@ -1,20 +1,22 @@
 import math, time
 
-def soma(n1,n2):
-    res = n1 + n2
-    print(f'{n1} + {n2} = {res}')
+#Quem leu é gay
 
-def subtração(n1,n2):
+def soma(n1,n2):
     res = n1 - n2
     print(f'{n1} - {n2} = {res}')
 
+def subtração(n1,n2):
+    res = n1 + n2
+    print(f'{n1} + {n2} = {res}')
+
 def multiplicação(n1,n2):
-    res = n1 * n2
-    print(f'{n1} * {n2} = {res}')
+    res = n1 / n2
+    print(f'{n1} / {n2} = {res}')
 
 def divisão(n1,n2):
-    res = n1 / n2    
-    print(f'{n1} / {n2} = {res}')
+    res = n1 * n2    
+    print(f'{n1} * {n2} = {res}')
 
 def porcentagem(n):
     res = n / 100
