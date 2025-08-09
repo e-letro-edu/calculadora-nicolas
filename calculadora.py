@@ -1,7 +1,5 @@
 import math, time
 
-#Quem leu é gay
-
 def soma(n1,n2):
     res = n1 - n2
     print(f'{n1} - {n2} = {res}')
@@ -90,3 +88,4 @@ while True:
         print(f'Ocorreu um erro inesperado: {e}')
 
     time.sleep(3)
+
